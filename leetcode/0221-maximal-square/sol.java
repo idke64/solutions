@@ -1,5 +1,8 @@
+//O(n^3)
+
 class Solution {
     public int maximalSquare(char[][] matrix) {
+    
         boolean[][] visited = new boolean[matrix.length][matrix[0].length];
         int best = 0;
         //2d prefix sum

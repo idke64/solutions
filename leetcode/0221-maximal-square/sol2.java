@@ -1,3 +1,5 @@
+//O(n^2 logn)
+
 class Solution {
     public int maximalSquare(char[][] matrix) {
         boolean[][] visited = new boolean[matrix.length][matrix[0].length];
