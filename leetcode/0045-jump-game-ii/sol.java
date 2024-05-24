@@ -4,7 +4,7 @@ class Solution {
         int[] origin = {0, 0, 0};
         boolean[] visited = new boolean[nums.length]; 
         queue.add(origin);
-        //[startInd, endInd #jumps]
+        //[startInd, endInd, #jumps]
         int ans = 0;
         while (!queue.isEmpty()){
             int[] curr = queue.poll();
