@@ -26,9 +26,6 @@ class Solution {
                     int low = 1;
                     int high = Math.min(psum.length - 1 - i, high = psum[0].length - 1 - j);
                     int x = 1;
-                    for (int l = low; l < high; l++){
-
-                    }
                     while (low <= high){
                         int mid = low + (high - low) / 2;
 
