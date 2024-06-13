@@ -1,4 +1,4 @@
-//technically O(nlogn)
+//O(nlogn)
 
 class Solution {
     public int lengthOfLIS(int[] nums) {
